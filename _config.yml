@@ -1,9 +1,14 @@
 # Site settings
-title: Solo, a Jekyll Theme
+title: Heatherfield Foods Inc.
 tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+description: Welcome to the Heatherfield Foods family of products. For over 25 years we have brought you quality foods. Please visit our websites to learn more.
+url: "http://adrianmiller.design/heatherfield_foods"
 
 # Build settings
 markdown: kramdown
 
 exclude: ["README.md"]
+
+# SASS Dir
+sass:
+    sass_dir: assets

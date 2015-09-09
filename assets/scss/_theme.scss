@@ -1,0 +1,72 @@
+@import "bourbon/bourbon";
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+	font-family: Georgia, serif;
+	// Needs latest Compass, add '@import "compass"' to your scss
+	// Permalink - use to edit and share this gradient:
+	// http://colorzilla.com/gradient-editor/#b3b3b3+0,fbfbfb+20,fbfbfb+80,b3b3b3+100
+	background-color: #b3b3b3; // Old browsers
+	@include background-image(linear-gradient(left,  #b3b3b3 0%,#fbfbfb 20%,#fbfbfb 80%,#b3b3b3 100%));
+}
+
+.container {
+	@media screen and (min-width: 480px) {
+		padding: 0 50px;
+	}
+}
+
+.main {
+	margin-bottom: 2rem;
+}
+
+hr {
+	@media screen and (min-width: 480px) {
+		margin-left: -100px;
+		margin-right: -100px;
+	}
+	border: none;
+	height: 1px;
+// Needs latest Compass, add '@import "compass"' to your scss
+// Permalink - use to edit and share this gradient:
+// http://colorzilla.com/gradient-editor/#fbfbfb+0,444444+20,474747+80,fbfbfb+100
+@include background-image(linear-gradient(left,  rgba(white, 0) 0%, #808080 50%, rgba(white, 0) 100%));
+}
+
+.heading--xl {
+	font-family: "Great Vibes", serif;
+	text-align: center;
+	font-size: 24pt;
+	line-height: 1.2em;
+	padding-top: 1rem;
+}
+
+.heading--l {
+	font-size: 14pt;
+	line-height: 1.2em;
+	max-width: 573px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #666666;
+}
+
+.inverse {
+	color: #fff;
+}
+
+p {
+	color: #C1272D;
+}
+
+a {
+	color: #F7931E;
+	font-size: 1.2rem;
+}
+
+.footer {
+	padding: 1rem 0;
+	color: #fff;
+	background-color: #b3b3b3; // Old browsers
+	@include background-image(linear-gradient(left,  #b3b3b3 0%,#808080 50%,#b3b3b3 100%));
+}

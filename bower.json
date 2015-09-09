@@ -1,0 +1,21 @@
+{
+  "name": "heatherfield-foods",
+  "version": "0.0.0",
+  "homepage": "https://github.com/adrianjonmiller/heatherfield-foods",
+  "authors": [
+    "Adrian Miller <adrianjonmiller@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3",
+    "thin": "thin-scss#~0.0.7"
+  }
+}

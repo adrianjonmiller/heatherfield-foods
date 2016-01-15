@@ -1,6 +1,10 @@
 @import "bourbon/bourbon";
 @import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Georgia, serif;
 	// Needs latest Compass, add '@import "compass"' to your scss
@@ -8,6 +12,11 @@ body {
 	// http://colorzilla.com/gradient-editor/#b3b3b3+0,fbfbfb+20,fbfbfb+80,b3b3b3+100
 	background-color: #b3b3b3; // Old browsers
 	@include background-image(linear-gradient(left,  #b3b3b3 0%,#fbfbfb 20%,#fbfbfb 80%,#b3b3b3 100%));
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .container {
@@ -62,6 +71,28 @@ p {
 a {
 	color: #F7931E;
 	font-size: 1.2rem;
+}
+
+[role="button"] {
+	background-image: linear-gradient(to top, #999999, #E6E6E6);
+	padding: .25em 1em;
+	line-height: 1em;
+	display: inline-block;
+	border-radius: .5em;
+	border: solid 4px #E6E6E6;
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px rgba(#fff, .5);
+	transition: background-image .5s;
+
+	&:hover {
+		background-image: linear-gradient(to top, darken(#999999, 5%), darken(#E6E6E6, 5%));
+	}
+}
+
+a.contact {
+	color: #96FFFF;
 }
 
 .footer {

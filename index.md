@@ -20,7 +20,7 @@ layout: default
 				Since 1987 Villa roma has offered FRESH &amp; NATURAL sausages!
 			</p>
 			<br>
-			<a role="button" target="_blank" href="http://villaromasausage.com/category/products/">Visit Now</a>
+			<a role="button" target="_blank" href="http://villaromasausage.com/">Visit Now</a>
 		</div>
 		<div class="col col-3">
 			<img src="assets/img/villaromaproducts.png" alt="Villa Roma Sausage">

@@ -19,7 +19,7 @@ layout: default
 			<p>
 				Since 1987 Villa roma has offered FRESH &amp; NATURAL sausages!
 			</p>
-			<br>
+			<br class="collapse">
 			<a role="button" target="_blank" href="http://villaromasausage.com/">Visit Now</a>
 		</div>
 		<div class="col col-3">
@@ -35,7 +35,7 @@ layout: default
 			<p>
 				The perfect Grab and Go snack! Microwares in less than a minute. A fun favorite loved by all.
 			</p>
-			<br>
+			<br class="collapse">
 			<a role="button" target="_blank" href="http://villaromasausage.com/products/ready-to-eat/dr-steins-bagel-dog/">Visit Now</a>
 		</div>
 		<div class="col col-3">
@@ -51,7 +51,7 @@ layout: default
 			<p>
 				Authentic Hispanic style sausages. Discover our complete line of FRESH sausages <br><br>Auténticas salchichas al estilo hispano. ¡Descubre nuestra línea completa de salchichas FRESCAS!
 			</p>
-			<br>
+			<br class="collapse">
 			<a role="button" target="_blank" href="http://casarosalessausage.com">Visit Now</a>
 		</div>
 		<div class="col col-3">
